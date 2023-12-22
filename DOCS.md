@@ -1,0 +1,34 @@
+# Arduino-based Lock System
+
+## Overview
+This system utilizes Arduino to control a lock mechanism with a servo motor, based on inputs from an IR remote control. It provides user feedback through LEDs and LCD displays.
+
+## Components
+- **Servo Motor**: Manages the locking mechanism.
+- **IR Receiver**: Interprets signals from an IR remote.
+- **LEDs**: Indicate the system's status and servo's rotation.
+- **LCD Displays**: Show instructions and system status.
+
+## Features
+1. **Password Entry via IR Remote**: Users input a 5-digit password using the remote.
+2. **Lock Control with Servo Motor**: The servo toggles the lock based on the password input.
+3. **LED Indicators**:
+   - Red LED: System is locked.
+   - Blue LED: System is unlocked.
+   - Yellow LEDs: Indicate the status of the servo motor.
+4. **LCD Status Messages**: Display password entry prompts and system status.
+5. **Reset Functionality**: Resets the system to a locked state and clears the entered password.
+
+## Operation
+- The system awaits password input. Correct entry unlocks the system, rotating the servo, turning the blue LED on, and displaying a success message on the LCDs.
+- Yellow LEDs show the servo's activity.
+- An incorrect password entry keeps the system locked, indicated by the red LED and error messages on the LCD.
+- Manual lock/unlock is possible via IR remote buttons.
+- An additional feature allows for light bulb control when the system is unlocked.
+
+## Installation
+- Ensure the Arduino environment and necessary libraries for the IR receiver, servo, and LCD (LiquidCrystal_I2C) are installed.
+- Connect hardware components according to the specified pin numbers in the code.
+
+## Notes
+This documentation provides a basic overview and operational guide for the Arduino-based lock system. For detailed instructions or troubleshooting, refer to the specific library documentation or Arduino forums.
