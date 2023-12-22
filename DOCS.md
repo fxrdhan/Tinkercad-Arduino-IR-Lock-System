@@ -9,6 +9,25 @@ This system utilizes Arduino to control a lock mechanism with a servo motor, bas
 - **LEDs**: Indicate the system's status and servo's rotation.
 - **LCD Displays**: Show instructions and system status.
 
+## Bill of Materials
+
+| Name   | Quantity | Component                       |
+| ------ | -------- | ------------------------------- |
+| U1     | 1        | Arduino Uno R3                  |
+| SERVO1 | 1        | Positional Micro Servo          |
+| U2     | 1        | IR sensor                       |
+| D1     | 1        | Yellow LED                      |
+| D3     | 1        | Green LED                       |
+| D4     | 1        | Red LED                         |
+| D5     | 1        | Blue LED                        |
+| R1     | 4        | 1 kΩ Resistor                   |
+| L1     | 1        | Light bulb                      |
+| K1     | 1        | Relay SPDT                      |
+| Bat4   | 1        | 2 batteries, AA, 1.5V Battery   |
+| U6     | 1        | PCF8574-based, 32 LCD 16 x 2 (I2C) |
+| U7     | 1        | PCF8574-based, 33 LCD 16 x 2 (I2C) |
+| U4     | 1        | PCF8574-based, 34 LCD 16 x 2 (I2C) |
+
 ## Features
 1. **Password Entry via IR Remote**: Users input a 5-digit password using the remote.
 2. **Lock Control with Servo Motor**: The servo toggles the lock based on the password input.
