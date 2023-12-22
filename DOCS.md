@@ -3,13 +3,13 @@
 ## Overview
 This system utilizes Arduino to control a lock mechanism with a servo motor, based on inputs from an IR remote control. It provides user feedback through LEDs and LCD displays.
 
-## Components
+## Main Components
 - **Servo Motor**: Manages the locking mechanism.
 - **IR Receiver**: Interprets signals from an IR remote.
 - **LEDs**: Indicate the system's status and servo's rotation.
 - **LCD Displays**: Show instructions and system status.
 
-## Bill of Materials
+## List of All Components
 
 | Name   | Quantity | Component                       |
 | ------ | -------- | ------------------------------- |
