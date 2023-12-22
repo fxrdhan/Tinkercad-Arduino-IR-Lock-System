@@ -10,7 +10,6 @@ This repository contains documentation and code for a simulated Arduino lock sys
 - [Documentation](#documentation)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Features
 - Secure password entry via an IR remote
