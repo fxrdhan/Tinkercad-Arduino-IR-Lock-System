@@ -55,7 +55,6 @@ int mapCodeToButton(unsigned long code) {
         case 0xE718BF00: return 7;
         case 0xE619BF00: return 8;
         case 0xE51ABF00: return 9;
-
         default: return -1;
     }
 }
