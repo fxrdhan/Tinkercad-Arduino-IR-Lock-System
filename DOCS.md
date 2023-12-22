@@ -1,4 +1,4 @@
-# Arduino-based Lock System
+# Tinkercad Arduino IR Lock System
 
 ## Overview
 This system utilizes Arduino to control a lock mechanism with a servo motor, based on inputs from an IR remote control. It provides user feedback through LEDs and LCD displays.
