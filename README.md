@@ -37,7 +37,7 @@ The bill of materials represents the components used in the Tinkercad simulation
 | U6-U8  | 3        | PCF8574-based, LCD 16 x 2 (I2C) (Simulated) |
 
 ## Documentation
-For detailed instructions on how to use the simulation, please refer to the `DOCUMENTATION.md` file included in this repository. It contains step-by-step guidance and operational details necessary to interact with the simulation effectively.
+For detailed instructions on how to use the simulation, please refer to the `DOCS.md` file included in this repository. It contains step-by-step guidance and operational details necessary to interact with the simulation effectively.
 
 ## Contributing
 Contributions to improve the documentation or the code are welcome. Please submit pull requests with detailed descriptions of your changes for review.
